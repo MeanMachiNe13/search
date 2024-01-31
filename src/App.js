@@ -83,7 +83,7 @@ const ToyShopsSearchComponent = () => {
 
   return (
     <div className="container">
-      <h2>Search</h2>
+      <h2>Contacts</h2>
       <div>
         <input
           className="searchInput"
@@ -92,8 +92,8 @@ const ToyShopsSearchComponent = () => {
           onChange={(e) => setSearchText(e.target.value)}
           placeholder="Enter search text"
         />
-        <button onClick={handleSearchClick}>Search</button>
       </div>
+        <button onClick={handleSearchClick}>Search</button>
     </div>
   );
 };

@@ -1,0 +1,14 @@
+.displayContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    z-index: 1;
+    padding-bottom: 56px;
+  }
+  
+  .inputField {
+    width: 25%;
+    margin-bottom: 0.5rem;
+  }
